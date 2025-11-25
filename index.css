@@ -5,13 +5,22 @@ body {
 .garden {
   border: 2px solid maroon;
   padding: 2px;
-  gap: 2px;
+  gap: 1px;
 }
 
 .garden p {
   margin: 0;
-  border-radius: 5px;
   padding: 0.25rem;
   background-color: wheat;
   text-align: center;
+}
+
+#level-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 34%
+}
+
+#level-2 {
+
 }
