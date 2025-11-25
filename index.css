@@ -22,5 +22,27 @@ body {
 }
 
 #level-2 {
-
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 34%
 }
+
+#level-2 .peas {
+  grid-column: 1 / span 2;
+}
+
+#level-3 {  
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 33% 33% 34%}
+  
+#level-3 
+  .onions {grid-column: 2 / span 2;}
+
+#level-3
+  .tomatoes {grid-column: 1 / span 2;}
+
+#level-3
+ .carrots {grid-column: 1 / span 4;}
+
+
