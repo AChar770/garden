@@ -123,3 +123,14 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr); }
+
+#level-8 {
+  display: grid;
+  grid-auto-rows: 5ch
+  grid-template-columns: repeat(auto-fit, 15ch);}
+
+#level-9 {
+  display: grid;
+  grid-auto-rows: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  }
